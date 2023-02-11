@@ -51,3 +51,6 @@ function a(b,c) {
 // No Tipados
 // Javascript
 
+function onclickU16() {
+  alert("holaaaaa")
+}
