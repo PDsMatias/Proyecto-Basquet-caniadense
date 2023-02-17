@@ -8,78 +8,81 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-    <script src="functions.js"></script>
+    <script src="functionsU21.js"></script>
 </head>
 
 <body class="content_body">
-    <div class="contenedor">
-        <div class="heads">
-            <header>
-                <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light ">
-                    <div class="container-fluid"> <a class="navbar-brand align-items-center" href="#"> <img
-                                src="logo.png.jpg" alt="logo de la liga" class="logo-img d-inline-block align-text-top"
-                                height="50px" width="75px"> </a>
-                        <h2 class="tituloHeader">Temporada 2022</h2> <button class="navbar-toggler" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span> </button>
-                        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                            <!-- <div class="navbar-nav">                       </div> -->
-                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                                <li class="nav-item "> 
-                                    <a href="index1.html" aria-current="page" class="nav-link active" onclick="onclickU16()">U16</a> 
-                                </li>
-                                <li class="nav-item "> 
-                                    <a href="u18.html" class="nav-link">U18</a> 
-                                </li>
-                                <li class="nav-item "> 
-                                    <a href="#" class="nav-link">U21</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </header>
-        </div>
-        <div class="container">
-            <div class="row justify-content-md-center">
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light ">
+            <div class="container-fluid">
                 
-                <div class="tabla">
-                    <table style="width: 100%;" class="table caption-top" id="tabla-u21">
-                        <tr>
-                            <td>#</td>
-                            <td>Equipos</td>
-                            <td>PJ</td>
-                            <td>PG</td>
-                            <td>PP</td>
-                            <td>Pts</td>
-                        </tr>
+                <a class="navbar-brand align-items-center" href="#">
+                    <img src="logo.png.jpg" alt="logo de la liga" class="logo-img d-inline-block align-text-top" height="50px" width="75px">
+                </a>
 
-                        
-                        <tr>
-                            <td>1</td>
-                            <td>San Martín(MJ)</td>
-                            <td>18</td>
-                            <td>18</td>
-                            <td>0</td>
-                            <td>39</td>
-                        </tr>
-                       
-                    </table>
+                <h2 class="tituloHeader">Temporada 2022</h2>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <!-- <div class="navbar-nav">
+
+                    </div> -->
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item ">
+                                <a href="index1.html" aria-current="page" class="nav-link active">U16</a>
+                        </li>
+                        <li class="nav-item ">
+                                <a href="u18.html" class="nav-link">U18</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="#" class="nav-link">U21</a>
+                        </li>
+                    </ul>
                 </div>
+
             </div>
+        </nav>
+    </header>
+    <div class="container contenedorPrincipal">
+        <div class="row justify-content-md-center">
+
+            <a href="#" class="button " onclick="onclickCompleteTable()">Completar tabla</a>
+            
+            <table id="tablaU21" style="width: 100%;" class="table caption-top tabla">
+                <!-- <tr>
+                    <td>#</td>
+                    <td>Equipos</td>
+                    <td>PJ</td>
+                    <td>PG</td>
+                    <td>PP</td>
+                    <td>Pts</td>
+                </tr> -->
+                <!-- <tr>
+                    <td>1</td>
+                    <td>San Martín(MJ)</td>
+                    <td>18</td>
+                    <td>18</td>
+                    <td>0</td>
+                    <td>39</td>
+                </tr> -->
+                
+            </table>
         </div>
     </div>
     <footer class="footer-distributed">
-        <div class="footer-right"> </div>
         <div class="footer-left">
             <p class="p">Contactanos/reporta un problema</p>
-            <form action="#" method="post"> <input type="text" name="email" placeholder="Email"> <textarea
-                    name="mensage" placeholder="Mensage"></textarea>
 
+            <form action="#" method="post">
+
+                <input type="text" name="email" placeholder="Email">
+                <textarea name="mensage" placeholder="Mensage"></textarea>
                 <button class="botón">enviar</button>
+
             </form>
         </div>
-    </footer>
-    </div>
+	</footer>   
 </body>
