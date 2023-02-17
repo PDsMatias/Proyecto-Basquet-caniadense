@@ -80,11 +80,6 @@ section {
 
 .footer-distributed h3{
 	color: white
-	font: normal 36px 'Roboto', cursive;
-	margin: 0 0 10px;
-}
-
-.footer-distributed h3 span{
 }
 
 /* Footer links */
@@ -163,19 +158,6 @@ section {
 	width: 400px;
 	padding: 18px;
 }
-
-.footer-distributed ::-webkit-input-placeholder {
-	
-}
-
-.footer-distributed ::-moz-placeholder {
-	
-	
-}
-
-.footer-distributed :-ms-input-placeholder{
-}
-
 
 .footer-distributed form input{
 	height: 55px;
