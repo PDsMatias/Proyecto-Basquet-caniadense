@@ -56,4 +56,15 @@ const listaEquipos = [
     ["19","Newbery Everton","18","2","17","20"],
 ]
 
+/*Aside*/ 
+
+const NavListaEquipos = document.getElementById("NavEquipos");
+const Aside = document.getElementById("aside");
+
+
+/*NavListaEquipos.addEventListener("click", ToggleLista)
+
+function ToggleLista(){
+    console.log("click")
+}*/
 
