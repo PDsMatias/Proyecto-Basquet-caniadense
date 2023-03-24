@@ -5,48 +5,12 @@ tr {
     color: rgb(255, 255, 255)
   }
  body{
-background-image: url("http://images.complex.com/complex/images/fl_lossy,q_auto/v1/rx5x1kwfmxrkufcnaoyr/new-ball-spalding-2006-syntethic-nba");
+background-image: url("https://live.staticflickr.com/206/502470343_461feba621_b.jpg");
  }
 .contenedorPrincipal {
 	margin-top: 80px;
  }
  
- .info{
-    padding-right: 60px;
- }
-  @media screen and (max-width: 600px) {
-    .tabla{
-        width: 50%;
-    }
-    thead {
-        display: none;
-    }
-    tr:nth-of-type(2n) {
-        background-color: inherit;
-    }
-    tr td:first-child {
-        font-weight:bold;
-        font-size:1.3em;
-    }
-    tbody td {
-        display: block;
-        text-align:center;
-    }
-    tbody td:before {
-        content: attr(data-th);
-        display: block;
-        text-align:center;
-    }
-}
-  
-.tabla{
-	margin-top: 70px;
-}
-
-.tablaU21{
-    padding-right: 40px;
-}
-
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
 
  /*flexbox*/
@@ -54,16 +18,25 @@ background-image: url("http://images.complex.com/complex/images/fl_lossy,q_auto/
 
 .flexbox{
 	display: flex;
-    padding-bottom: 10px;
+  margin: 0;
 }
 
 #aside{
-	background-color: #ffffff;
-	width:400px;
+	background-color: #000000;
+	width: 300px;
 }
 
-/*a renegar!!*/
+/*a renegar!! (aside)*/
 
 .inactive{
     display: none;
+}
+
+
+.individual{
+  padding-top: 1px;
+  margin: 0;
+  padding-left: 100px;
+  font-style: italic;
+  color: aliceblue;
 }

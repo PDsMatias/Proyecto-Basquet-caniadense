@@ -51,9 +51,6 @@ function a(b,c) {
 // No Tipados
 // Javascript
 
-function onclickU16() {
-  alert("holaaaaa")
-}
 /**
        * Print the names and majors of students in a sample spreadsheet:
        * https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
