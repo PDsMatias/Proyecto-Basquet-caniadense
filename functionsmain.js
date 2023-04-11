@@ -63,7 +63,7 @@ function onloadCompleteTableU18(){
 
     let tableU18 = document.getElementById("tablaU18");
 
-let row = tableU18.insertRow();
+    let row = tableU18.insertRow();
     let cell = row.insertCell();
     let cell2 = row.insertCell();
     let cell3 = row.insertCell();
@@ -78,7 +78,7 @@ let row = tableU18.insertRow();
     cell5.textContent = "PP";
     cell6.textContent = "Pts";
 
-// Recorre la lista de equipos (o array de equipos)
+    // Recorre la lista de equipos (o array de equipos)
 
     const listaEquiposU18 = [
         ["1","San Martín(MJ)","18","18","0","39"],
