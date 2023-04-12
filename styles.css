@@ -18,11 +18,16 @@ background-image: url("https://live.staticflickr.com/206/502470343_461feba621_b.
  /*box*/
 
 .box{
-  position: absolute;
-  padding: 30px;
-  width: 100%;
-  background-color: rgb(68, 67, 67);
-  border-top-right-radius:15px;
+    margin-right: auto !important;
+    margin-top: 100px !important;
+    margin-left: auto !important;
+    padding-top: 30px;
+    box-shadow: 3px 2px 12px 8px rgb(0,0,0,0.4);
+    width: 100%;
+    max-width: 1000px;
+    padding: 30px;
+    background-color: rgb(68, 67, 67);
+    border-top-right-radius:15px;
     border-top-left-radius:15px;
     border-bottom-right-radius:15px;
     border-bottom-left-radius:15px;
@@ -45,7 +50,6 @@ background-image: url("https://live.staticflickr.com/206/502470343_461feba621_b.
     display: none;
 }
 
-
 .individual{
   padding-left: 25px;
   font-style: italic;
@@ -54,4 +58,9 @@ background-image: url("https://live.staticflickr.com/206/502470343_461feba621_b.
   height: 12px;
 }
 
+.table {
+  overflow: hidden;
+  width: 100%;
+  border-radius: 15px;
+}
 
