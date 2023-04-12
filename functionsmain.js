@@ -188,6 +188,6 @@ const Aside = document.getElementById("aside")
 NavEquipos.addEventListener("click", ToggleAside)
 
 function ToggleAside(){
-    Aside.classList.toggle("inactive")
+    Aside.classList.toggle("inactive");
 }
 

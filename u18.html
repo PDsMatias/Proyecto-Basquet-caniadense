@@ -1,56 +1,97 @@
 <head>
-    <title>Tabla De Posiciones U18</title>
+    <title>Tabla De Posiciones u18</title>
     <LINK REL=StyleSheet HREF="styles.css" TYPE="text/css" MEDIA=screen>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimum-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimum-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
-
 <body onload = onloadCompleteTableU18(); class="content_body">
-            <header>
-                <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light ">
-                    <div class="container-fluid"> <a class="navbar-brand align-items-center" href="#"> <img
-                                src="logo.png.jpg" alt="logo de la liga" class="logo-img d-inline-block align-text-top"
-                                height="50px" width="75px"> </a>
-                        <h2 class="tituloHeader">Posiciones 2022</h2> <button class="navbar-toggler" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span> </button>
-                        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                            <!-- <div class="navbar-nav">                       </div> -->
-                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                                        <a href="index.html" aria-current="page" class="nav-link">U16</a>
-                                </li>
-                                <li class="nav-item ">
-                                        <a href="#" class="nav-link active">U18</a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a href="u21.html"  class="nav-link">U21</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link" id="NavEquipos">Lista de equipos</a>
-                                <li class="nav-item ">
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </header>
-            <div class="contenedorPrincipal">
-                <div class="flexbox">
-                    <table id="tablaU18" style="width: 100%;" class="table caption-top tabla">
-                       <!--Tabla-->
-                   </table>
-                   <aside class="inactive" id="aside">
-                   </aside>
-                 </div>
-             </div>
-         </div>
+    <header class="header">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light ">
+            <div class="container-fluid">
+                
+                <a class="navbar-brand align-items-center" href="#">
+                    <img src="logo.png.jpg" alt="logo de la liga" class="logo-img d-inline-block align-text-top" height="50px" width="75px">
+                </a>
+
+                <h2 class="tituloHeader">Posiciones 2022</h2>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <!-- <div class="navbar-nav">
+
+                    </div> -->
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <a href="index.html" aria-current="page" class="nav-link">U16</a>
+                        </li>
+                        <li class="nav-item ">
+                                <a href="#" class="nav-link active">U18</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="u21.html"  class="nav-link">U21</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" id="NavEquipos">Lista de equipos</a>
+                        <li class="nav-item ">
+                    </ul>
+                </div>
             </div>
-        </div>
+        </nav>
+    </header>
+    <div class="contenedorPrincipal">
+        <div class="box">
+            <table id="tablaU18" 
+            style="width: 100%;" class="table">
+               <!--Tabla-->
+           </table>
+         </div>
+    </div>
+        <aside id="aside" class="inactive">
+            <p><p class="individual">Equipos:</p>
+            <br>
+           <p class="individual">San Martin</p>
+           <br>
+           <p class="individual">Sport CC</p> 
+           <br>
+           <p class="individual">Totoras Jrs</p>
+           <br>
+           <p class="individual">Sarmiento</p>
+           <br>
+           <p class="individual">Adeo</p>
+           <br>
+           <p class="individual">Carcaraña</p>
+           <br>
+           <p class="individual">Alba Maciel</p>	
+           <br>
+           <p class="individual">Tennis CC</p>
+           <br>
+           <p class="individual">Argentino (Mj)</p>
+           <br>
+           <p class="individual">Dep. Norte</p>
+           <br>
+           <p class="individual">Union De Totoras</p>
+           <br>
+           <p class="individual">Almafuerte</p>
+           <br>
+           <p class="individual">Sp. Las Parejas</p>	
+           <br>
+           <p class="individual">Atlletico SG</p>	
+           <br>
+           <p class="individual">Sport CC 1</p>	
+           <br>
+           <p class="individual">Sp. Rivadavia</p>
+           <br>
+           <p class="individual">Provincial</p>	
+           <br>
+           <p class="individual">Campaña</p>	
+           <br>
+           <p class="individual">Newbery Everton</p></p>
+        </aside>
+ </div>
     </div>
 </body>
 <script src="functionsmain.js"></script>

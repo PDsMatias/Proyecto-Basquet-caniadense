@@ -1,31 +1,44 @@
 tr {
-    color: rgb(255, 255, 255);
-  }
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
   h3{
-    color: rgb(255, 255, 255)
+    color: rgb(0, 0, 0)
   }
- body{
+ /*body{
 background-image: url("https://live.staticflickr.com/206/502470343_461feba621_b.jpg");
- }
+ }*/
 .contenedorPrincipal {
 	margin-top: 80px;
+  
  }
  
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
 
- /*flexbox*/
+ /*box*/
 
-
-.flexbox{
-	display: flex;
-  margin: 0;
+.box{
+  position: absolute;
+  padding: 30px;
+  width: 100%;
+  background-color: rgb(68, 67, 67);
+  border-top-right-radius:15px;
+    border-top-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px;
 }
 
 #aside{
-	background-color: #000000;
-	width: 300px;
+  background-color: rgb(50, 50, 50);
+  position: sticky;
+  float: right;
+  height: 800px;
+  width: 200px;
+  border-top-right-radius:15px;
+  border-top-left-radius:15px;
+  border-bottom-right-radius:15px;
+  border-bottom-left-radius:15px;
 }
-
 /*a renegar!! (aside)*/
 
 .inactive{
@@ -34,9 +47,11 @@ background-image: url("https://live.staticflickr.com/206/502470343_461feba621_b.
 
 
 .individual{
-  padding-top: 1px;
-  margin: 0;
-  padding-left: 100px;
+  padding-left: 25px;
   font-style: italic;
   color: aliceblue;
+  margin: 0;
+  height: 12px;
 }
+
+
