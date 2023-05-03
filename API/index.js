@@ -1,17 +1,41 @@
-console.log('My app')
+console.log('Guardado en my app')
 
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 3000
+ 
 
-app.get('/', (req,res) => {
+app.get('/equipos', (req,res) => {
+  console.log("equipos cargados exitosamente")
   res.send(equipos);
 })
 
-app.listen(port, () => {
-  console.log("HOlaaa desde el puerto: " + port)
+app.get("/nombre/:id", (req,res) => {
+  const { id } = req.params;
+  res.json({
+    id,
+    name: "mati",
+    años: 16 
+  })
 });
 
+app.listen(port, () => {
+  console.log("puerto: " + port)
+});
+
+//app.get("/products", (req, res) => {
+  //const products = [];
+    //const { size } = req.query;
+    //const limit = size || 10;
+    //for (let index = 0; index < limit ; index++) {
+      //products.push({
+        //name: faker.commerce.productName(),
+        //price: parseInt(faker.commerce.price(), 10),
+        //image: faker.image.imageUrl(),
+      //});
+      //res.json(products);
+   // }
+ // });
 
 const equipos = [
   {"orden":"1","equipo":"San Martín(MJ)","pJugados":"18","pGanados":"18","pPerdidos":"0","puntosAcumulados":"39"},
