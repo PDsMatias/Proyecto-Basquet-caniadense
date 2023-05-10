@@ -18,7 +18,7 @@ async function onloadCompleteTable(idTable) {
 
     
 
-    var equiposFromApi = await obtenerEquipos();
+    var equiposFromApi = await obtenerEquipos(idTable);
 
     // Recorre la lista de equipos (o array de equipos)
     for (let equipo of equiposFromApi) {
@@ -36,8 +36,8 @@ async function onloadCompleteTable(idTable) {
     }
 }
 
-async function obtenerEquipos() {
-    const rawResponse = await fetch("http://127.0.0.1:3000/equipos");
+async function obtenerEquipos(idTable) {
+    const rawResponse = await fetch("http://127.0.0.1:3000/equipos/"+ idTable);
     return  await rawResponse.json();
 }
 
