@@ -19,7 +19,6 @@ app.get('/equipos/:id', (req,res) => {
   console.log(id)
 
   if (id === 'tablaU16') {
-    console.log("anda por favor")
     res.json(equiposU16)
   }
    else if(id === 'tablaU18') {
